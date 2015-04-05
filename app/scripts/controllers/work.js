@@ -8,10 +8,14 @@
  * Controller of the afjlambertApp
  */
 angular.module('afjlambertApp')
-  .controller('AboutCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
+  .controller('WorkCtrl', function ($scope) {
+    $scope.projects = [
+      {
+        'title': 'Binck',
+        'tags': [
+          'responsive',
+          'cloud'
+        ]
+      }
     ];
   });
