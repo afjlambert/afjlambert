@@ -17,6 +17,12 @@ http://afjlambert.github.io/
 Run `grunt` for building and `grunt serve` for preview.
 
 
+## Deploy
+
+    grunt build
+    git subtree push --prefix dist origin master
+
+
 ## Testing
 
 Running `grunt test` will run the unit tests with karma.
