@@ -20,6 +20,7 @@ Run `grunt` for building and `grunt serve` for preview.
 ## Deploy
 
     grunt build
+    git add ... commit etc.
     git subtree push --prefix dist origin master
 
 
