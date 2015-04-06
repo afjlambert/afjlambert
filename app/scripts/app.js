@@ -27,6 +27,9 @@ angular
         templateUrl: 'views/work.html',
         controller: 'WorkCtrl'
       })
+      .when('/blog', {
+        templateUrl: 'views/blog.html'
+      })
       .when('/contact', {
         templateUrl: 'views/contact.html'
       })
